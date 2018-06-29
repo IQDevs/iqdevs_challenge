@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #555;
+    background-image: linear-gradient(to right, #1842ad, #2f6aff);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 60% 93% ,0 100%);
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.col-1-of-2 {
+    float:left;
+    width: calc((100% -  6rem) / 2);
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADING SECTION */
+
+.heading {
+    background-color: #1b51da;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.heading__logo {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.heading__text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+
+
+/* MAIN AREA SECTION */
+
+.main-area {
+    padding: 3rem 0;
+    background-color: #f7f7f7;
+}
+
+.main-area__work {
+    padding: 3rem;
+}
+
+.main-area__work h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textarea {
+    display: block;
+    height: 20rem;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    transition: all .2s;
+    resize: none;
+}
+.display{
+display: block;
+height: 15rem;   
+width:40%;
+border:0;
+border-radius: 5px;
+transition: all .2s;
+resize: none;
+margin:auto;
+text-align:  center;
+
+}
+.display:hover{
+ border: 2px solid rgba(68, 119, 247, 0.60);   
+    
+} 
+.textarea::placeholder,
+.textarea::-moz-placeholder {
+    color: rgba(80, 123, 233, .6);
+    font-style: italic;
+}
+
+.main-area__work .textarea:hover {
+    border: 2px solid rgba(68, 119, 247, 0.60);
+}
+
+input[type="submit"]{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: 0;
+    color: #fff;
+    background-color: #2259e4;
+    text-transform: uppercase;
+    transition: all .3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #194bcb;
+    box-shadow: .2rem .8rem 1rem rgba(0, 0, 0, .2);
+}
+
+.main-area__gaidlines h2 {
+    font-size: 3rem;
+}
+
+.main-area__gaidlines {
+    padding: 0 3rem;
+}
+
+.gidelines__text {
+    list-style: none;
+}
+
+.gidelines__text li {
+    font-size: 1.6rem;
+    margin: 1rem;
+}
