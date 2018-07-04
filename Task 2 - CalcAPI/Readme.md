@@ -10,7 +10,8 @@ Create RESTFUL API, that provides endpoints that provides a way to create, maint
 - Create a record.
 - Delete record.
 - View current value.
-- View history.
+- View history for each record.
+- View records list.
 - Freeze/unfreeze record.
 - Total operations count.
 - Fork record.
