@@ -9,9 +9,9 @@ Create RESTFUL API, that provides endpoints that provides a way to create, maint
 - Token must comply with the 'authorization: token xxxx' header.
 - Create a record.
 - Delete record.
-- View current value.
+- View current value. 
 - View history for each record.
-- View records list.
+- View records list. 
 - Freeze/unfreeze record.
 - Total operations count.
 - Fork record.
