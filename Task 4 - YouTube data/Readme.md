@@ -1,6 +1,7 @@
 # Task 4 - YouTube data
 
-Using dataset linked below you need to parse all `.csv` files and extract the required statistics (as mentioned below) and output the result into a new set of csv files.
+Using the data set linked below, parse all `.csv` files and extract the required statistics (as listed below) and output the result into a new set of csv files.
+
 
 --
 
